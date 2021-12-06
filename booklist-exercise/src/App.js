@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import logo from './logo.svg';
 import './App.css';
+import { BookSearchView } from "./components/BookSearchView";
 
 class App extends Component {
   constructor() {
@@ -25,13 +25,15 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <p>
-            { this.state.monsters.map((monster, index) => {
+          {
+            this.state.monsters.map((monster, index) => {
               return <h1 key={index}>
                 {monster.name}
               </h1>
-            }) }
-          </p>
+            })
+          }
+
+          <BookSearchView />
         </header>
       </div>
     )
