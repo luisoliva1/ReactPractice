@@ -1,14 +1,14 @@
+import {BookCard} from "../BookCard";
+
 export const BookList = ({ books }) => {
   return <>
-    <ul>
+    <div id={'layout'}>
       {
         books.map(book => {
-          return <li key={book.id}>
-            {book.title}
-          </li>
+          return <BookCard key={book.id} book={book} />
         })
       }
-    </ul>
+    </div>
 
   </>
 }

@@ -16,7 +16,7 @@ export const BookSearchView = () => {
 
   useEffect(() => {
     if (books.length > 0) {
-      console.log('$ DEBUG books[0]', books[0])
+      console.log('$ DEBUG books[4]', books[4])
     }
   }, [books])
 
