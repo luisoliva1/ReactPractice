@@ -1,20 +1,19 @@
-import React, {Component} from 'react'
-import './App.css';
-import {BookSearchView} from "./components/BookSearchView";
+import React, { Component } from 'react'
+import './App.css'
+import { BookSearchView } from './components/BookSearchView'
 
 class App extends Component {
-  render() {
-    return (
-      /**/
-      <div className="App">
-        {/*className="App-header"*/}
-        <header>
-          <BookSearchView/>
-        </header>
-      </div>
-    )
-  }
+    render() {
+        return (
+            /**/
+            <div className="App">
+                {/*className="App-header"*/}
+                <header>
+                    <BookSearchView />
+                </header>
+            </div>
+        )
+    }
 }
 
-
-export default App;
+export default App
