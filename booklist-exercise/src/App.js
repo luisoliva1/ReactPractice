@@ -1,6 +1,6 @@
-import React, { Component } from 'react'
+import React, {Component} from 'react'
 import './App.css';
-import { BookSearchView } from "./components/BookSearchView";
+import {BookSearchView} from "./components/BookSearchView";
 
 class App extends Component {
   constructor() {
@@ -9,9 +9,11 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <BookSearchView />
+      /*className="App"*/
+      <div>
+        {/*className="App-header"*/}
+        <header>
+          <BookSearchView/>
         </header>
       </div>
     )
