@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/ReactPractice/static/css/main.56fb85be.chunk.css",
+    "main.js": "/ReactPractice/static/js/main.a6045764.chunk.js",
+    "main.js.map": "/ReactPractice/static/js/main.a6045764.chunk.js.map",
+    "runtime-main.js": "/ReactPractice/static/js/runtime-main.00532d1f.js",
+    "runtime-main.js.map": "/ReactPractice/static/js/runtime-main.00532d1f.js.map",
+    "static/js/2.8ed249a5.chunk.js": "/ReactPractice/static/js/2.8ed249a5.chunk.js",
+    "static/js/2.8ed249a5.chunk.js.map": "/ReactPractice/static/js/2.8ed249a5.chunk.js.map",
+    "static/js/3.5e022122.chunk.js": "/ReactPractice/static/js/3.5e022122.chunk.js",
+    "static/js/3.5e022122.chunk.js.map": "/ReactPractice/static/js/3.5e022122.chunk.js.map",
+    "index.html": "/ReactPractice/index.html",
+    "static/css/main.56fb85be.chunk.css.map": "/ReactPractice/static/css/main.56fb85be.chunk.css.map",
+    "static/js/2.8ed249a5.chunk.js.LICENSE.txt": "/ReactPractice/static/js/2.8ed249a5.chunk.js.LICENSE.txt",
+    "static/media/BoookCard.styles.css": "/ReactPractice/static/media/wood.e1d6e4d1.jpg",
+    "static/media/App.css": "/ReactPractice/static/media/wood2.7a5b274a.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.00532d1f.js",
+    "static/js/2.8ed249a5.chunk.js",
+    "static/css/main.56fb85be.chunk.css",
+    "static/js/main.a6045764.chunk.js"
+  ]
+}
