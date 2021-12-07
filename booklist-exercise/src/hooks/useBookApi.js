@@ -5,9 +5,6 @@ export const useBookApi = () => {
     const [loading, setLoading] = useState(false)
     const options = {
         mode: 'cors',
-        headers: {
-            'Access-Control-Allow-Origin': '*',
-        },
     }
 
     useEffect(() => {
