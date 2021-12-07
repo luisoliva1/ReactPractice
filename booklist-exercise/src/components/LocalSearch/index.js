@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react'
+import './LocalSearch.styles.css'
 
 export const LocalSearch = ({ books, setBooks }) => {
     const [originalList, setOriginalList] = useState([])
@@ -33,6 +34,7 @@ export const LocalSearch = ({ books, setBooks }) => {
 
     return (
         <input
+            className={'local-search'}
             type={'text'}
             placeholder={'Search for a book'}
             onChange={(e) => handleChange(e)}

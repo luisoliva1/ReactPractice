@@ -1,9 +1,11 @@
 .book-card {
+    justify-content: center;
     background-color: #662200;
     color: #cc9966;
     display: grid;
     grid-template-rows: 80% 20%;
     grid-gap: 3px;
+    background-image: url('../../assets/wood.jpg');
 }
 
 .book-card:hover {
