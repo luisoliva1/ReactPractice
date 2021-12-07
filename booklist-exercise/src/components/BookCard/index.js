@@ -1,8 +1,8 @@
-import {BookCardContainer} from "./styles";
+import "./BoookCard.styles.css";
 
 export const BookCard = ({book}) => {
-  return <div style={{...BookCardContainer()}}>
-    <img alt={book.title} src={book.formats['image/jpeg']} width={100} height={180}/>
+  return <div className={'book-card'}>
+    <img alt={book.title} src={book.formats['image/jpeg']} width={100}/>
     <small>
       {book.title}
     </small>

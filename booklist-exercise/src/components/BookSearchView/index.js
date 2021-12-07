@@ -1,6 +1,6 @@
-import React, { useEffect } from 'react'
-import { useBookApi } from '../../hooks/useBookApi'
-import { BookLoadingList } from "../BookLoadingList";
+import React, {useEffect} from 'react'
+import {useBookApi} from '../../hooks/useBookApi'
+import {BookLoadingList} from "../BookLoadingList";
 import {BookList} from "../BookList";
 
 export const BookSearchView = () => {
@@ -12,6 +12,7 @@ export const BookSearchView = () => {
 
   useEffect(() => {
     getBooks(1)
+    //eslint-disable-next-line
   }, [])
 
   useEffect(() => {
