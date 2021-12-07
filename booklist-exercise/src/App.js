@@ -3,10 +3,6 @@ import './App.css';
 import {BookSearchView} from "./components/BookSearchView";
 
 class App extends Component {
-  constructor() {
-    super();
-  }
-
   render() {
     return (
       /*className="App"*/
