@@ -20,6 +20,7 @@ export const useBookApi = () => {
 
     return {
         books,
+        setBooks,
         getBooks,
         loading,
     }

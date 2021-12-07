@@ -5,7 +5,7 @@ import { BookList } from '../BookList'
 import { BookFilters } from '../BookFilters'
 
 export const BookSearchView = () => {
-    const { books, getBooks, loading } = useBookApi()
+    const { books, setBooks, getBooks, loading } = useBookApi()
 
     useEffect(() => {
         getBooks(1)
@@ -20,7 +20,7 @@ export const BookSearchView = () => {
 
     return (
         <>
-            <BookFilters />
+            <BookFilters books={books} setBooks={setBooks} />
             {loading ? <BookLoadingList /> : <BookList books={books} />}
         </>
     )
