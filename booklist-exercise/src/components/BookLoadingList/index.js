@@ -1,5 +1,3 @@
 export const BookLoadingList = () => {
-  return <>
-    {'Loading...'}
-  </>
- }
+    return <>{'Loading...'}</>
+}
