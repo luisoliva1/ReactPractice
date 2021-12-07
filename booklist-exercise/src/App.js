@@ -5,12 +5,9 @@ import { BookSearchView } from './components/BookSearchView'
 class App extends Component {
     render() {
         return (
-            /**/
             <div className="App">
                 {/*className="App-header"*/}
-                <header>
-                    <BookSearchView />
-                </header>
+                <BookSearchView />
             </div>
         )
     }

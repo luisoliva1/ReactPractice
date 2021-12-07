@@ -19,9 +19,10 @@ export const BookSearchView = () => {
     }, [books])
 
     return (
-        <>
+        <div>
+            <h1>Project Guttenberg catalog</h1>
             <BookFilters books={books} setBooks={setBooks} />
             {loading ? <BookLoadingList /> : <BookList books={books} />}
-        </>
+        </div>
     )
 }

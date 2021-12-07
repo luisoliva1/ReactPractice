@@ -1,5 +1,4 @@
 .book-filters {
-    border: 3px red solid;
     display: grid;
     grid-template-columns: 20% 80%;
     grid-gap: 10px;
@@ -7,3 +6,8 @@
     padding-top: 3vh;
     padding-bottom: 3vh;
 }
+
+/*
+border: 3px red solid; for debugging
+*/
+
